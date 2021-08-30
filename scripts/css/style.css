@@ -2,4 +2,33 @@ body{
     background-color: #920000;
     background-image: url('../../images/4k India.jpg');
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+ul.ulnav{
+border-radius: 5px;
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+li.linav{
+    float: left;
+}
+li.linav a{
+    display: block;
+    color: #920000;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+}
+li.linav a.active{
+    display: block;
+    color: #482859;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+}
+li.linav a:hover{
+    background-color: black;
 }
