@@ -5,10 +5,14 @@
     </head>
     <body>
         <ul class="ulnav">
-            <li class="linav"><a href="index.html" class="active">Home</a></li>
-            <li class="linav"><a href="index.html" class="active">About</a></li>
-            <li class="linav"><a href="index.html" class="active">Projects</a></li>
-            <li class="linav"><a href="index.html" class="active">Skills</a></li>
+            <div class="dropdown">
+                <button class="dropbtn">Dropdown</button>
+                <div class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </div>
         </ul>
         <div class="background">
         <h1>Emon's Personal Page</h1>
@@ -16,5 +20,11 @@
         <dd>Born in KY</dd>
         <dd>Favorite destination is Hilton Head</dd>
         <dd>I'm an only child</dd>
+        <div class="dropdown">
+            <span>Mouse over me</span>
+            <div class="dropdown-content">
+              <p>Hello World!</p>
+            </div>
+          </div>
     </body>
 </html>
