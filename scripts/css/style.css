@@ -22,13 +22,13 @@ li.linav a{
     padding: 16px 18px;
     text-decoration: none;
 }
-li.linav a.active{
+li.linav a:visited{
     display: block;
-    color: #482859;
+    color: purple;
     text-align: center;
     padding: 16px 18px;
     text-decoration: none;
 }
-li.linav a:hover{
-    background-color: black;
+li.linav a:link{
+    background-color: hotpink;
 }
