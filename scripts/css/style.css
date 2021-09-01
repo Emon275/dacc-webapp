@@ -30,7 +30,7 @@ li.linav a:visited{
     text-decoration: none;
 }
 li.linav a:link{
-    background-color: hotpink;
+    background-color: green;
 }
 div.static {
     position: static;
@@ -46,7 +46,7 @@ div.static {
   position: absolute;
   background-color: hotpink;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px hot hotpink;
+  box-shadow: 0px 8px 16px 0px hot green;
   padding: 12px 16px;
   z-index: 1;
 }
@@ -89,7 +89,7 @@ div.static {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: hotpink}
+.dropdown-content a:hover {background-color: green}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
@@ -98,5 +98,30 @@ div.static {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-  background-color: hotpink;
+  background-color: green;
+}
+#page_wrapper{
+  border-radius: 5px;
+  border: 2px solid #eeeeee;
+  padding: 10px;
+  height: 800px;
+  width: 700px;
+  background: rgba(255, 255, 255, 0.507);
+  margin: auto;
+}
+
+p.p_content1{
+  font-size: 12pt;
+  color: #73AD21;
+  font-family: Verdana;
+}
+span.font1{
+  font-size: 20pt;
+  color: #000000;
+  font-family: Verdana;
+}
+span.standout{
+  font-size: 20pt;
+  color: #eeeeee;
+  font-family: Verdana;
 }
